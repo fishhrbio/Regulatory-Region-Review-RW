@@ -8,7 +8,7 @@ analysis of public ENCODE data.
 
 ## Project summary
 
-Waite Chromatin Atlas asks whether candidate enhancer regions are more specific
+Thiss Chromatin Atlas asks whether candidate enhancer regions are more specific
 to cellular context than active-promoter regions. It compares published
 ChromHMM annotations in GM12878 and K562 on human chromosome 22, measuring how
 many DNA bases carry the same regulatory class in both cell lines.
