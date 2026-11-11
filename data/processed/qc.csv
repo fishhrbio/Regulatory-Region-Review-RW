@@ -1,0 +1,3 @@
+cell,whole_file_rows,selected_rows,other_chromosome_rows,selected_bp,selected_span_start,selected_span_end,internal_gap_bp,internal_gap_count,input_selected_sorted,duplicate_selected_rows,overlapping_selected_rows,malformed_or_missing_records,selected_bp_outside_common
+GM12878,571339,11497,559842,34852028,16050000,51244534,342506,10,True,0,0,0,0
+K562,622257,12846,609411,34852028,16050000,51244534,342506,10,True,0,0,0,0

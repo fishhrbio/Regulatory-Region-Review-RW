@@ -1,0 +1,17 @@
+{
+  "checked_date": "2026-11-09",
+  "files": [
+    {
+      "path": "data/raw/wgEncodeBroadHmmGm12878HMM.bed.gz",
+      "bytes": 5540331,
+      "sha256": "69f1c18955ea6fe3ebe2e6223708d870b46c24f3400bc4d826a23e47472d9e30",
+      "role": "unchanged downloaded source"
+    },
+    {
+      "path": "data/raw/wgEncodeBroadHmmK562HMM.bed.gz",
+      "bytes": 6040576,
+      "sha256": "9cec92958735391924b8cbdca0e595f064ff5448d9008aeddd5540fdfe355552",
+      "role": "unchanged downloaded source"
+    }
+  ]
+}

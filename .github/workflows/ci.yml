@@ -1,0 +1,27 @@
+name: Validate analysis
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pytest -q
+      - run: python -m chromatin_atlas --output validation-rerun
+      - run: python scripts/check_reproduction.py validation-rerun
+      - run: node tests/test_dashboard.cjs
+      - run: node tests/test_interface.cjs
+      - run: python scripts/execute_notebook.py --output validation-rerun/analysis.executed.ipynb
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reproduced-analysis
+          path: validation-rerun/

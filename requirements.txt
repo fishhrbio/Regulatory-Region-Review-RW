@@ -1,0 +1,3 @@
+# Analysis runtime for reproducible figure generation. Python 3.12 recommended.
+matplotlib==3.10.7
+numpy==2.5.4

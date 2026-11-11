@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software and the original ENCODE/Broad data sources in data/SOURCES.md."
+title: "Waite Chromatin Atlas"
+type: software
+authors:
+  - family-names: Waite
+    given-names: Robert
+version: 1.0.0
+license: MIT
+abstract: "A reproducible descriptive analysis and interactive explorer of published hg19 chr22 ChromHMM annotations in GM12878 and K562."

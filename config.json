@@ -1,0 +1,10 @@
+{
+  "assembly": "hg19",
+  "chromosome": "chr22",
+  "primary_excluded_states": [14, 15],
+  "classes": {
+    "active_promoter": [1],
+    "strong_enhancer": [4, 5],
+    "broad_enhancer": [4, 5, 6, 7]
+  }
+}

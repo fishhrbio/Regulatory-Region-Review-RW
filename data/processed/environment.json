@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "matplotlib": "3.10.7",
+  "numpy": "2.5.4",
+  "config_sha256": "c06221db1fa03595d2a6225b8d49cedf6ad34972491ae0c8d69dd7f70a2fa4b7",
+  "pipeline_version": "1.0.0"
+}

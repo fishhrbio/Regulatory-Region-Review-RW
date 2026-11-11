@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "waite-chromatin-atlas"
+version = "1.0.0"
+description = "Exact base-pair comparison of published ENCODE chromatin states"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{name = "Robert Waite"}]
+license = {text = "MIT"}
+dependencies = ["matplotlib==3.10.7", "numpy==2.5.4"]
+
+[project.scripts]
+chromatin-atlas = "chromatin_atlas.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["chromatin_atlas*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
