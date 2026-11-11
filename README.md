@@ -1,4 +1,4 @@
-# Waite Chromatin Atlas
+# Regulatory Region Review
 
 **Robert Waite · M.S. candidate in Biotechnology · University of South Florida (USF)**
 
